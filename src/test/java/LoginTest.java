@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 public class LoginTest extends TestBase{
 
     @Test
-    public void loginPositiveTest() throws InterruptedException {
+    public void loginPositiveTest() {
 
         //open login/Reg form
         WebElement loginBtn = wd.findElement(By.xpath("//*[text()='LOGIN']"));
