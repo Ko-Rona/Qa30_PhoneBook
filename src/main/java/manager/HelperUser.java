@@ -64,7 +64,7 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isErrorMessageWrongFormat() {
-        Alert alert = new WebDriverWait(wd, 10)
+        Alert alert = new WebDriverWait(wd, 13)
                 .until(ExpectedConditions.alertIsPresent());
         String error = alert.getText();
         return error.contains("Wrong email or password format");
