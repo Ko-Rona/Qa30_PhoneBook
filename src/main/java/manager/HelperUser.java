@@ -37,7 +37,6 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isLogged() {
-
         return isElementPresent(By.xpath("//button[text()='Sign Out']"));
     }
 
@@ -71,4 +70,10 @@ public class HelperUser extends HelperBase {
     }
 
 
+    public void login() {
+        User user = new User().withEmail("korona1504@gmail.com").withPassword("KoronA10$");
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
+    }
 }

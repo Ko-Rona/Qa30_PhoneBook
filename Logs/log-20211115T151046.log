@@ -1,0 +1,12 @@
+15:10:50  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+15:10:51  INFO  tests.TestBase - Start test --> removeContactByNumber
+15:10:51  INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Sign Out']
+15:11:01  INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Sign Out']was found
+15:11:01  INFO  manager.MyListener - Start search element by locator-->By.xpath: //a[text()='LOGIN']
+15:11:01  INFO  manager.MyListener - The element with locator-->By.xpath: //a[text()='LOGIN']was found
+15:11:01  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (a8c48ecc3af31d731209e8d0e3e5f4b1)] -> xpath: //a[text()='LOGIN']]
+15:11:01  INFO  manager.MyListener - Start search element by locator-->By.xpath: //input[1]
+15:11:01  INFO  manager.MyListener - The element with locator-->By.xpath: //input[1]was found
+15:11:01  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (a8c48ecc3af31d731209e8d0e3e5f4b1)] -> xpath: //input[1]]
+15:11:01  INFO  manager.MyListener - Start search element by locator-->By.xpath: //input[2]
+15:11:01  INFO  manager.MyListener - The element with locator-->By.xpath: //input[2]was found

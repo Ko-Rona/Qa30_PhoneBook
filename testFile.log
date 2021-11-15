@@ -1,0 +1,12 @@
+3393 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+15124 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with email--->nik2071@gmail.com
+15124 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with password--->Nik12345$
+16599 [Test worker] INFO  manager.ApplicationManager - Tests passed
+3534 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+14978 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with email--->nik2146@gmail.com
+14979 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with password--->Nik12345$
+16466 [Test worker] INFO  manager.ApplicationManager - Tests passed
+20:37:13  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+20:37:24  INFO  tests.TestBase - Test Registration Positive starts with email--->nik2244@gmail.com
+20:37:24  INFO  tests.TestBase - Test Registration Positive starts with password--->Nik12345$
+20:37:26  INFO  manager.ApplicationManager - Tests passed

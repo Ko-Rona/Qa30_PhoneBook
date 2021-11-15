@@ -1,0 +1,23 @@
+15:18:33  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+15:18:34  INFO  tests.TestBase - Start test --> removeContactByNumber
+15:18:34  INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Sign Out']
+15:18:44  INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Sign Out']was found
+15:18:44  INFO  manager.MyListener - Start search element by locator-->By.xpath: //a[text()='LOGIN']
+15:18:44  INFO  manager.MyListener - The element with locator-->By.xpath: //a[text()='LOGIN']was found
+15:18:44  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (42acec6ecfe040b7e4f43575191951a5)] -> xpath: //a[text()='LOGIN']]
+15:18:44  INFO  manager.MyListener - Start search element by locator-->By.xpath: //input[1]
+15:18:44  INFO  manager.MyListener - The element with locator-->By.xpath: //input[1]was found
+15:18:44  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (42acec6ecfe040b7e4f43575191951a5)] -> xpath: //input[1]]
+15:18:45  INFO  manager.MyListener - Start search element by locator-->By.xpath: //input[2]
+15:18:45  INFO  manager.MyListener - The element with locator-->By.xpath: //input[2]was found
+15:18:45  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (42acec6ecfe040b7e4f43575191951a5)] -> xpath: //input[2]]
+15:18:45  INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[1]
+15:18:45  INFO  manager.MyListener - The element with locator-->By.xpath: //button[1]was found
+15:18:45  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (42acec6ecfe040b7e4f43575191951a5)] -> xpath: //button[1]]
+15:18:45  INFO  manager.MyListener - Start search element by locator-->By.cssSelector: .contact-page_leftdiv__yhyke
+15:18:46  INFO  manager.MyListener - The element with locator-->By.cssSelector: .contact-page_leftdiv__yhykewas found
+15:18:46  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (42acec6ecfe040b7e4f43575191951a5)] -> css selector: .contact-page_leftdiv__yhyke]
+15:18:54  INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Remove']
+15:18:54  INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Remove']was found
+15:18:55  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (42acec6ecfe040b7e4f43575191951a5)] -> xpath: //button[text()='Remove']]
+15:18:55  INFO  tests.TestBase - ================================================================
