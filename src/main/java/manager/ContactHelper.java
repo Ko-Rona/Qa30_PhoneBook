@@ -86,4 +86,15 @@ public class ContactHelper extends HelperBase {
             pause(3000);
         }
     }
+
+    public boolean isContactPresent(String phone) {
+        List<WebElement> contactEmails = wd.findElements(By.cssSelector("h3"));
+        for (WebElement w : contactEmails) {
+            String text = w.getText();
+            if (text.contains(phone)) return true;
+        }
+        return false;
+    }
+
 }
+

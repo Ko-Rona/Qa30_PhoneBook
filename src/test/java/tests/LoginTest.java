@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
@@ -41,7 +41,7 @@ public class LoginTest extends TestBase {
 //        Assert.assertTrue(wd.findElements(By.xpath("//button[text()='Sign Out']")).size() > 0);
 //    }
 
-    @Test
+    @Test(groups ={"web"})
     public void loginTest2() {
         User user = new User().withEmail("korona1504@gmail.com").withPassword("KoronA10$");
 //        String email = "korona1504@gmail.com";

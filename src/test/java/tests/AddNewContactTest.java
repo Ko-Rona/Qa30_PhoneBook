@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 
 public class AddNewContactTest extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions() {
         if (!app.getUser().isLogged()) {
             app.getUser().login();
         }
     }
 
-    @Test(invocationCount = 5)
+    @Test(invocationCount = 1,groups ={"web", "smoke"} )
     public void addNewContactTest() {
 
         int index = (int) (System.currentTimeMillis() / 1000) % 3600;
@@ -30,6 +30,7 @@ public class AddNewContactTest extends TestBase {
         app.contact().submitContactForm();
 
         Assert.assertTrue(app.contact().isContactAdded());
+        Assert.assertTrue(app.contact().isContactPresent(contact.getPhone()));
 
     }
 }

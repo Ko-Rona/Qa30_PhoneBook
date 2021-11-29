@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-17T19:01:18" hostname="DESKTOP-LB14E35" time="1.177">
+  <properties/>
+  <testcase name="registrationTestWrongEmail" classname="tests.RegistrationTest" time="1.177"/>
+  <system-out><![CDATA[21:01:18  INFO  tests.TestBase - Start test --> registrationTestWrongEmail
+21:01:18  INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Sign Out']
+21:01:18  INFO  manager.MyListener - The element with locator--> By.xpath: //button[text()='Sign Out']was found
+21:01:18  INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[text()='Sign Out']
+21:01:18  INFO  manager.MyListener - The element with locator--> By.xpath: //button[text()='Sign Out']was found
+21:01:18  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (c3451f5e8567d7939da049f9ccc346fd)] -> xpath: //button[text()='Sign Out']]
+21:01:18  INFO  manager.MyListener - Start search element by locator-->By.xpath: //a[text()='LOGIN']
+21:01:18  INFO  manager.MyListener - The element with locator--> By.xpath: //a[text()='LOGIN']was found
+21:01:19  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (c3451f5e8567d7939da049f9ccc346fd)] -> xpath: //a[text()='LOGIN']]
+21:01:19  INFO  manager.MyListener - Start search element by locator-->By.xpath: //input[1]
+21:01:19  INFO  manager.MyListener - The element with locator--> By.xpath: //input[1]was found
+21:01:19  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (c3451f5e8567d7939da049f9ccc346fd)] -> xpath: //input[1]]
+21:01:19  INFO  manager.MyListener - Start search element by locator-->By.xpath: //input[2]
+21:01:19  INFO  manager.MyListener - The element with locator--> By.xpath: //input[2]was found
+21:01:19  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (c3451f5e8567d7939da049f9ccc346fd)] -> xpath: //input[2]]
+21:01:19  INFO  manager.MyListener - Start search element by locator-->By.xpath: //button[2]
+21:01:19  INFO  manager.MyListener - The element with locator--> By.xpath: //button[2]was found
+21:01:19  INFO  manager.MyListener - Click on element--->[[ChromeDriver: chrome on WINDOWS (c3451f5e8567d7939da049f9ccc346fd)] -> xpath: //button[2]]
+Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+21:01:20  INFO  tests.TestBase - ================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -25,7 +25,7 @@ public class MyListener extends AbstractWebDriverEventListener {
     @Override
     public void afterFindBy(By by, WebElement element, WebDriver driver) {
         super.afterFindBy(by, element, driver);
-        logger.info("The element with locator-->" + by + "was found");
+        logger.info("The element with locator--> " + by + "was found");
     }
 
     @Override
